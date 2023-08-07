@@ -1,0 +1,10 @@
+#!/bin/bash
+
+apt install -y wget
+rm -f /etc/apt/sources.list.d/*
+echo 'deb http://kali.download/kali kali-rolling main non-free contrib' > /etc/apt/sources.list
+wget https: //archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc
+apt update
+apt -y upgrade
+apt -y install kali-defaults
+apt -y install kali-linux-headless
