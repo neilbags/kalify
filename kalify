@@ -9,6 +9,7 @@ apt update
 apt -y upgrade
 apt -y install kali-defaults
 apt -y install kali-linux-headless
+apt -y install nuclei
 
 echo "Reboot now? (y/n)"
 read -r answer
