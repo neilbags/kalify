@@ -1,4 +1,4 @@
-# Kalify
+# kalify
 
 Convert a debian VPS to Kali linux rolling.
 
